@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "grabwork",
+    "production": "grabwork"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
