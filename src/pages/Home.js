@@ -205,7 +205,7 @@ const Home = () => {
 
   return (
     <div className="container mt-5">
-      <h2 className="mb-4">Book a Ride</h2>
+      <h2 className="mb-4">Book a Ridesawww</h2>
       {error && <div className="alert alert-danger mt-3">{error}</div>}
       <form onSubmit={handleSearch}>
         <div className="row mb-3">
