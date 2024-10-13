@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import { AuthProvider } from './contexts/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Home from './pages/Home';
+import Home2 from './pages/Home2';
 import Profile from './pages/Profile';
 import ProviderDashboard from './pages/ProviderDashboard';
 import ProviderList from './pages/ProviderList';
@@ -51,7 +52,7 @@ function App() {
         <Router>
           <div className="App">
             <Routes>
-              <Route path="/" element={<Layout><Home /></Layout>} />
+              <Route path="/" element={<Layout><Home2 /></Layout>} />
               <Route path="/profile" element={<Layout><Profile /></Layout>} />
               <Route path="/provider-dashboard" element={<Layout><ProtectedRoute><ProviderDashboard /></ProtectedRoute></Layout>} />
               <Route path="/provider-list" element={<Layout><ProviderList /></Layout>} />
