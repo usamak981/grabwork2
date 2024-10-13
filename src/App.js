@@ -52,7 +52,7 @@ function App() {
         <Router>
           <div className="App">
             <Routes>
-              <Route path="/" element={<Layout><Home2 /></Layout>} />
+              <Route path="/" element={<Home2 />} />
               <Route path="/profile" element={<Layout><Profile /></Layout>} />
               <Route path="/provider-dashboard" element={<Layout><ProtectedRoute><ProviderDashboard /></ProtectedRoute></Layout>} />
               <Route path="/provider-list" element={<Layout><ProviderList /></Layout>} />
